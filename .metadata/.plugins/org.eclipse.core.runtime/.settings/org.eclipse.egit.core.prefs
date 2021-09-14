@@ -1,4 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\hp\\git\\repository\\.git;C\:\\Users\\hp\\git\\repository\\EmployeeManagement\\.git;D\:\\git\\EmployeeManagement\\.git;D\:\\git\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\hp\\git\\repository\\.git;C\:\\Users\\hp\\git\\repository\\EmployeeManagement\\.git;D\:\\git\\EmployeeManagement\\.git;D\:\\git\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\hp\\git\\repository\\.git;D\:\\Personnal\\Projects\\Java\\rakbank\\Employee\\.git;D\:\\git\\EmployeeManagement\\.git;D\:\\git\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\hp\\git\\repository\\.git;.git;D\:\\git\\EmployeeManagement\\.git;D\:\\git\\.git;
+RepositorySearchDialogSearchPath=D\:\\Personnal\\Projects\\Java\\rakbank\\Employee
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

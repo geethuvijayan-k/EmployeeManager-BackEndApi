@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
-	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\hp\git\repository\.git"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="D:\Personnal\Projects\Java\rakbank\Employee\.git"/>
 	<list key="CommitDialog.authorValues">
 		<item value="Geethu &lt;geethu@hashinclu.de&gt;"/>
 	</list>
@@ -16,15 +16,15 @@
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
 		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
-		<item key="sortItemState" value="false"/>
+		<item key="sortItemState" value="true"/>
 	</section>
 	<section name="GitCommitMessageComponent">
 		<list key="D:\git\EmployeeManagement\.git">
 			<item value="false"/>
 			<item value="Geethu &lt;geethu@hashinclu.de&gt;"/>
-			<item value="Initial commit"/>
+			<item value="# WARNING: head commit changed in the meantime&#x0D;&#x0A;&#x0D;&#x0A;Initial commit"/>
 			<item value="Geethu &lt;geethu@hashinclu.de&gt;"/>
-			<item value="0000000000000000000000000000000000000000"/>
+			<item value="4c8e3d46a701c4681ab49055b547a43919e969b4"/>
 			<item value="0"/>
 			<item value="false"/>
 		</list>
