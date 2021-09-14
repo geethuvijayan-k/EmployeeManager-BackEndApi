@@ -48,7 +48,7 @@ public class EmployeeService {
 	}
 
 	public Optional<List<Employee>> findEmployeeByName(String employee_name) {
-		return Optional.of(employeeRepo.findEmployeeByName(employee_name));
+		return employeeRepo.findEmployeeByName(employee_name);
 
 	}
 

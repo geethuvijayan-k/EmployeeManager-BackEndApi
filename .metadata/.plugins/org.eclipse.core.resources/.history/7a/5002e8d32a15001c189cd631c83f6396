@@ -42,8 +42,8 @@ public class EmployeeController {
 	}
 
 	@GetMapping("/findByName/{employee_name}") public
-	  ResponseEntity<Optional<List<Employee>>> getEmployeeByName(@PathVariable("employee_name") String employee_name){
-	     Optional<List<Employee>> employee=employeeService.findEmployeeByName(employee_name);
+	  ResponseEntity<Optional<Employee>> getEmployeeByName(@PathVariable("employee_name") String employee_name){
+	     Optional<Employee> employee=employeeService.findEmployeeByName(employee_name);
 	  return new ResponseEntity<>(employee, HttpStatus.OK); }
 
 	@PostMapping("/add")
