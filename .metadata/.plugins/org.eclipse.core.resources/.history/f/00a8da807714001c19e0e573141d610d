@@ -1,0 +1,15 @@
+package com.java.employeeManagement.model;
+
+import java.util.Date;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+	public class Employee {
+	private long employee_no;
+	private String employee_name;
+	private Date joining_date;
+	private String department;
+	private double salary;
+
+
+}

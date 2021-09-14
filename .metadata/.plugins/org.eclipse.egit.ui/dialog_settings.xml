@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\hp\git\repository\.git"/>
+	<list key="CommitDialog.authorValues">
+		<item value="Geethu &lt;geethu@hashinclu.de&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Geethu &lt;geethu@hashinclu.de&gt;"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="D:\git\EmployeeManagement\.git">
+			<item value="false"/>
+			<item value="Geethu &lt;geethu@hashinclu.de&gt;"/>
+			<item value="Initial commit"/>
+			<item value="Geethu &lt;geethu@hashinclu.de&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+	<section name="GitImportWizard">
+	</section>
+</section>

@@ -1,0 +1,42 @@
+package com.java.employeeManagement.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.java.employeeManagement.model.Employee;
+import com.java.employeeManagement.service.EmployeeService;
+
+@RestController
+@RequestMapping("/employees")
+public class EmployeeController {
+
+	private final EmployeeService employeeService;
+
+	@Autowired
+	public EmployeeController(EmployeeService employeeService) {
+			this.employeeService = employeeService;
+	}
+	
+	@GetMapping("/all")
+	public ResponseEntity<List<Employee>> getAllEmployees(){
+		List<Employee> employeeList=employeeService.findAllEmployees();
+		return new ResponseEntity<List<Employee>>(employeeList, HttpStatus.OK);
+	}
+	
+	@GetMapping("/find/{id}")
+	public ResponseEntity<Employee> getEmployeeById(@PathVariable("id") Long id){
+		Employee employee=employeeService.findEmpById(id);
+		return new ResponseEntity<Employee>(employee, HttpStatus.OK);
+	}
+	addEmployee()
+	updateEmployee()
+	deleteEmployee()
+	
+}
