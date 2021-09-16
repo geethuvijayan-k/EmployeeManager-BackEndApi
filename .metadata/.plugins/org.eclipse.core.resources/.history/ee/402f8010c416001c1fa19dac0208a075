@@ -21,9 +21,9 @@ public class Employee {
 	private String department;
 	private double salary;
 
-	public Employee(long employee_no, String name, Date joining_date, String department, double salary) {
+	public Employee(long employee_no, String employeeName, Date joining_date, String department, double salary) {
 		this.employee_no = employee_no;
-		this.name = name;
+		this.employeeName = employeeName;
 		this.joining_date = joining_date;
 		this.department = department;
 		this.salary = salary;
@@ -41,12 +41,12 @@ public class Employee {
 		this.employee_no = employee_no;
 	}
 
-	public String getName() {
-		return name;
+	public String getEmployeeName() {
+		return employeeName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
 	}
 
 	public Date getJoining_date() {
@@ -75,7 +75,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [employee_no=" + employee_no + ", employee_name=" + name + ", joining_date="
+		return "Employee [employee_no=" + employee_no + ", employee_name=" + employeeName + ", joining_date="
 				+ joining_date + ", department=" + department + ", salary=" + salary + "]";
 	}
 

@@ -21,9 +21,9 @@ public class Employee {
 	private String department;
 	private double salary;
 
-	public Employee(long employee_no, String name, Date joining_date, String department, double salary) {
+	public Employee(long employee_no, String employeeName, Date joining_date, String department, double salary) {
 		this.employee_no = employee_no;
-		this.name = name;
+		this.employeeName = employeeName;
 		this.joining_date = joining_date;
 		this.department = department;
 		this.salary = salary;
@@ -45,7 +45,7 @@ public class Employee {
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String employeeName) {
 		this.name = name;
 	}
 

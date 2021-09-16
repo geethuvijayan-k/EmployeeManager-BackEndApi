@@ -42,9 +42,9 @@ public class EmployeeController {
 		return new ResponseEntity<>(employee, HttpStatus.OK);
 	}
 
-	@GetMapping("/findByName/{name}") public
-	  ResponseEntity<Optional<List<Employee>>> getEmployeeByName(@PathVariable("name") String employee_name){
-	     Optional<List<Employee>> employee=employeeService.findEmployeeByName(employee_name);
+	@GetMapping("/findByName/{employee_name}") public
+	  ResponseEntity<Optional<List<Employee>>> getEmployeeByEmployeeName(@PathVariable("employee_name") String employee_name){
+	     Optional<List<Employee>> employee=employeeService.findEmployeeByEmployeeName(employee_name);
 	  return new ResponseEntity<>(employee, HttpStatus.OK); }
 
 	@PostMapping("/add")

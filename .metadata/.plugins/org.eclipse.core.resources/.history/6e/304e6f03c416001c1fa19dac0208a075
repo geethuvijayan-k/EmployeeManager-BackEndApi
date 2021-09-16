@@ -11,6 +11,6 @@ import com.java.employeeManagement.model.Employee;
 @Repository
 public interface EmployeeRepo extends JpaRepository<Employee, Long> {
 
-	public List<Employee> findEmployeeByName(String employee_name);
+	public List<Employee> findEmployeeByEmployeeName(String employee_name);
 	
 }

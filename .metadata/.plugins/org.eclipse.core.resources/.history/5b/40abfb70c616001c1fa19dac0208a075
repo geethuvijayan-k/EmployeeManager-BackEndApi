@@ -43,7 +43,7 @@ public class EmployeeController {
 	}
 
 	@GetMapping("/findByName/{name}") public
-	  ResponseEntity<Optional<List<Employee>>> getEmployeeByName(@PathVariable("name") String employee_name){
+	  ResponseEntity<Optional<List<Employee>>> getEmployeeByName(@PathVariable("employee_name") String employee_name){
 	     Optional<List<Employee>> employee=employeeService.findEmployeeByName(employee_name);
 	  return new ResponseEntity<>(employee, HttpStatus.OK); }
 
