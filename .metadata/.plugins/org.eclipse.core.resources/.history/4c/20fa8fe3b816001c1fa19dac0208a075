@@ -48,7 +48,7 @@ public class EmployeeController {
 	  return new ResponseEntity<>(employee, HttpStatus.OK); }
 
 	@PostMapping("/add")
-	@CrossOrigin(origins = "http://localhost:3000/")
+	@CrossOrigin(origins = "http://localhost:3000/#/")
 	public ResponseEntity<Employee> addEmployee(@RequestBody Employee emp) {
 		Employee employee = employeeService.addEmployee(emp);
 		return new ResponseEntity<>(employee, HttpStatus.CREATED);
