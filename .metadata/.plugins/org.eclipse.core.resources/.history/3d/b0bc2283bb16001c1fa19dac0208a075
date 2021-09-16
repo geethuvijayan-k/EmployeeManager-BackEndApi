@@ -2,7 +2,6 @@ package com.java.employeeManagement.model;
 
 import java.util.Date;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,7 +14,6 @@ public class Employee {
 
 	@Id
 	private long employee_no;
-	@Column(name="employee_name")
 	private String employeeName;
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	private Date joining_date;
@@ -76,7 +74,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [employee_no=" + employee_no + ", employee_name=" + employeeName + ", joining_date="
+		return "Employee [employee_no=" + employee_no + ", employee_name=" + employee_name + ", joining_date="
 				+ joining_date + ", department=" + department + ", salary=" + salary + "]";
 	}
 

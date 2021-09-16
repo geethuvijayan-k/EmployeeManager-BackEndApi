@@ -47,8 +47,8 @@ public class EmployeeService {
 		return Optional.of(employeeRepo.findById(employee_no).orElseThrow());
 	}
 
-	public Optional<List<Employee>> findEmployeeByEmployeeName(String employee_name) {
-		return Optional.of(employeeRepo.findEmployeeByEmployeeName(employee_name));
+	public Optional<List<Employee>> findEmployeeByName(String employee_name) {
+		return Optional.of(employeeRepo.findEmployeeByName(employee_name));
 
 	}
 
